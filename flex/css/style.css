@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    display: flex; 
+    justify-content: center;
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.title_description {
+    display: flex; 
+    justify-content: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #86878B;
+}
+
+.border {
+    width: 170px;
+    height: 0px;
+    left: 670px;
+    top: 2776px;
+    border: 1px solid #EC7979;
+}
+.pricing {
+    display: flex;
+
+}
+
+.pricing_basic {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+.lower {
+    margin-top: 10px;
+}
+.pricing_basic__title {
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 60px;
+    border: 2px solid #F5F5F5;
+    background: #333333;
+}
+
+.pricing_basic__price {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F5F5F5;;
+    width: 370px;
+    height: 100px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+.pricing_basic__addition {
+    height: 50px;
+    width: 370px;
+    background-color: #333333;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgba(255, 255, 255, 0.5);
+    border: 2px solid #F5F5F5;
+}
+ .pricing_basic__storage {
+    height: 250px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    background-color: white;
+    color: #86878B;
+    list-style-type: none;
+}
+.pricing_basic__storage_list {background: #FFFFFF;
+    height: 50px;
+    width: 370px;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .pricing_optima {
+        width: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15px;
+    }
+    .lower {
+        margin-top: 10px;
+    }
+    .pricing_optima__title {
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 370px;
+        height: 60px;
+        border: 2px solid #F5F5F5;
+        background: #333333;
+    }
+    
+    .pricing_optima__price {
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #F5F5F5;;
+        width: 370px;
+        height: 100px;
+        background: #333333;
+        border: 2px solid #F5F5F5;
+    }
+    .pricing_optima__addition {
+        height: 50px;
+        width: 370px;
+        background-color: #333333;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgba(255, 255, 255, 0.5);
+        border: 2px solid #F5F5F5;
+    }
+     .pricing_optima__storage {
+        height: 250px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-transform: capitalize;
+        background-color: white;
+        color: #86878B;
+        list-style-type: none;
+    }
+    .pricing_optima__storage_list {background: #FFFFFF;
+        height: 50px;
+        width: 370px;
+        border: 2px solid #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .pricing_pro {
+            width: 370px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 15px;
+        }
+        .lower {
+            margin-top: 10px;
+        }
+        .pricing_pro__title {
+            font-family: Open Sans;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 370px;
+            height: 60px;
+            border: 2px solid #F5F5F5;
+            background: #333333;
+        }
+        
+        .pricing_pro__price {
+            font-family: Raleway;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: 0em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #F5F5F5;;
+            width: 370px;
+            height: 100px;
+            background: #333333;
+            border: 2px solid #F5F5F5;
+        }
+        .pricing_pro__addition {
+            height: 50px;
+            width: 370px;
+            background-color: #333333;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:rgba(255, 255, 255, 0.5);
+            border: 2px solid #F5F5F5;
+        }
+         .pricing_pro__storage {
+            height: 250px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            text-transform: capitalize;
+            background-color: white;
+            color: #86878B;
+            list-style-type: none;
+        }
+        .pricing_pro__storage_list {background: #FFFFFF;
+            height: 50px;
+            width: 370px;
+            border: 2px solid #F5F5F5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+
